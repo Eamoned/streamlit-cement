@@ -60,7 +60,7 @@ Markdown==3.3.4
 MarkupSafe==1.1.1
 matplotlib==3.0.2
 mistune==0.8.4
-mkl-fft==1.2.0
+mkl-fft==1.0.15
 mkl-random==1.1.1
 mkl-service==2.3.0
 more-itertools==8.7.0
@@ -144,4 +144,3 @@ wrapt==1.12.1
 xgboost==1.1.1
 xlrd==1.2.0
 zipp==3.4.0
-mkl-random==1.1.1
