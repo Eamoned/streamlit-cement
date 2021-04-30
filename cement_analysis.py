@@ -44,7 +44,7 @@ def main():
 	# # EDA		
 	if option == "EDA":
 		st.subheader('Exploratory Data Analysis')
-		df=pd.read_csv('data/compresive_strength_concrete.csv') # upload the data chossen above
+		df=pd.read_csv('compresive_strength_concrete.csv') # upload the data chossen above
 		st.success("Data Sucessfully loaded")
 		st.dataframe(df.head())
 
@@ -136,7 +136,7 @@ def main():
 	# Feature Engineering		
 	elif option == "Feature Engineering":
 		st.subheader('Feature Engineering')
-		df=pd.read_csv('data/compresive_strength_concrete.csv') # upload the data chossen above
+		df=pd.read_csv('compresive_strength_concrete.csv') # upload the data chossen above
 		st.success("Data Sucessfully loaded")
 		df = df.rename(columns={'Cement (component 1)(kg in a m^3 mixture)':'cement',
        'Blast Furnace Slag (component 2)(kg in a m^3 mixture)':'slag',
@@ -220,7 +220,7 @@ def main():
 	# Model Building		
 	elif option == "Model Building & Performance":
 		st.subheader('Model Building & Performance')
-		df=pd.read_csv('data/compresive_strength_concrete.csv') # upload the data chossen above
+		df=pd.read_csv('compresive_strength_concrete.csv') # upload the data chossen above
 		st.success("Data Sucessfully loaded")
 		df = df.rename(columns={'Cement (component 1)(kg in a m^3 mixture)':'cement',
        'Blast Furnace Slag (component 2)(kg in a m^3 mixture)':'slag',
