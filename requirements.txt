@@ -144,4 +144,3 @@ wrapt==1.12.1
 xgboost==1.1.1
 xlrd==1.2.0
 zipp==3.4.0
-mkl-fft==1.0.15
